@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+
+    <string name="internet_error_msg">No internet Connection\nCheck your internet settings and try again </string>
+    <string name="content_error_msg">News were not loaded successfully! \nRestart the app</string>
+    <string name="refresh">Refresh</string>
+    <string name="author_tag">Author: </string>
+    <string name="no_author_msg">The Guardian team</string>
+    <string name="settings_title">Settings</string>
+
+    <string-array name="settings_section_labels">
+        <item>All</item>
+        <item>Business</item>
+        <item>Technology</item>
+        <item>Film</item>
+        <item>Media</item>
+        <item>Politics</item>
+        <item>Sport</item>
+        <item>Life and Style</item>
+        <item>UK news</item>
+        <item>US news</item>
+        <item>World news</item>
+    </string-array>
+    <string-array name="settings_section_values">
+        <item />
+        <item>business</item>
+        <item>technology</item>
+        <item>film</item>
+        <item>media</item>
+        <item>politics</item>
+        <item>sport</item>
+        <item>lifeandstyle</item>
+        <item>uk-news</item>
+        <item>us-news</item>
+        <item>world</item>
+    </string-array>
+
+    <string-array name="settings_order_by_labels">
+        <item>Newest</item>
+        <item>Oldest</item>
+        <item>Relevance</item>
+    </string-array>
+    <string-array name="settings_order_by_values">
+        <item>newest</item>
+        <item>oldest</item>
+        <item>relevance</item>
+    </string-array>
+
+    <string name="settings_min_news_label">Minimum News</string>
+    <string name="settings_min_news_key" translatable="false">min_news</string>
+    <string name="settings_min_news_default" translatable="false">5</string>
+
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_news_key" translatable="false">section</string>
+    <string name="settings_section_news_default" translatable="false" />
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">newest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
